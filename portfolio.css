@@ -34,7 +34,7 @@ button a { text-decoration: none;
     color: rgb(212,, 54);}
 .propos {color: rgb(206, 56, 56);
     display: flex;
-    justify-content: center; margin-top: 50px;}
+    justify-content: center; margin-top: 60px;}
 .info { color: rgb(255, 254, 254);
     display: grid;
     grid-template-columns:  auto auto auto auto;
@@ -105,7 +105,7 @@ button a { text-decoration: none;
 .con { width: 100% ; height: 70px;       
     text-align: center;}
 .con a {text-decoration: none;
-    color: rgb(14, 11, 11);}
+    color: rgb(248, 244, 244);}
 .inscri {color: rgb(255, 253, 253);}
 .inscri table {
     width: 100px;height: 400px;
@@ -115,7 +115,8 @@ button a { text-decoration: none;
 .footer{
         display: grid;
         grid-template-columns: auto auto auto ; 
-        background-color:cadetblue}
+        background-color:cadetblue;margin-top: 50px;
+    }
 .appel{display: grid;
         grid-template-columns: auto auto; 
         margin: 15px;}
