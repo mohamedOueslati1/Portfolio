@@ -1,14 +1,31 @@
-#header  {width: 100%;height: 55px;
+#header {
+    
     display: grid;
-    grid-template-columns:  auto auto auto auto;
-   
-    background-color: rgb(132, 72, 243);}
-
-#header > div { width: 555px;
-margin: 5px;}
-#header a{ margin-right: 15px;
-    color: rgb(255, 255, 255);
+    grid-template-columns: auto auto auto;
+    position: fixed;color: rgb(82, 79, 79);
+    background-color: cornsilk;
+    height: 55px;
+    width: 100%;
+}
+.logo { margin: 6.5px;}
+.titer {
+    display: flex;
+    justify-content: center;
+}
+.titer p {
+    margin-left: 140px;
+    border: rgb(133, 133, 133);
+}
+.profil {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    border: rgb(126, 124, 122);
+}
+.profil a {
     text-decoration: none;
+margin-right: 15px;
+color: rgb(131, 127, 127);
 }
 .info {
     display: grid;
@@ -30,11 +47,11 @@ button {background-color: rgb(133, 133, 133);
     
     }
 button a { text-decoration: none;
-    color: rgb(212, 54, 54);
+    color: rgb(212,, 54);
 }
 .propos {color: rgb(206, 56, 56);
     display: flex;
-    justify-content: center;}
+    justify-content: center; margin-top: 60px;}
 .info { color: rgb(255, 254, 254);
     display: grid;
     grid-template-columns:  auto auto auto auto;
@@ -67,8 +84,8 @@ button a { text-decoration: none;
 .barre{
     display: block;
     height: 100%;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;}
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;}
 
 .c60{
     width: 65%;
@@ -98,35 +115,64 @@ button a { text-decoration: none;
     background: url(image.jpg);}
 
 
- .index > div {
+ .index > div {;
      margin:0px 75px 25px ;
  }
- .back {
+ .back {display: grid;
+    grid-template-columns: auto auto;
      background: url(image.jpg);
+     width: auto;
+     height: 600px;
  }
- .mapouter{
+ .mapouter {
+     margin: 50px;
+ }
+ .mapouter div{position: fixed;
      margin:auto;
-     position:relative;
+     margin-top: 55px;
     text-align:right;width:600px;height:400px;}
     .gmap_canvas {overflow:hidden;
         background:none!important;width:600px;height:400px;}
         .gmap_iframe {width:600px!important;height:400px!important;}
+
+.con { width: 100% ; height: 70px;
+       
+        text-align: center;}
+.con a {
+            text-decoration: none;
+            color: rgb(248, 244, 244);}
+.inscri {
+    color: rgb(7, 6, 6);
+}
+.inscri table {position:fixed;
+    background-color: cornsilk;
+    width: 400px;height: 400px;
+    margin-top: 106px;
+    margin-bottom: 100px;
+}
+.facebook { display:flex;
+    justify-content: center;
+    background-color: rgb(133, 133, 133);
+    margin: auto;
+    }
 .facebook img {width: 20px;
     height: 30px;
-    border: 35px  #fff;
-    box-shadow: 0px 0px 3px #777;
+    box-shadow: 0px 0px 3px ;
     border-radius: 15%;
     margin:auto; margin-top: 20px;margin-right: 25px;
     }
-.facebook { width: 100% ; height: 70px;
-    background-color: rgb(126, 124, 122);
-    text-align: center;
+    .appel {width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(133, 133, 133);
     }
-    .con { width: 100% ; height: 70px;
-       
-        text-align: center;
-        }
-        .con a {
-            text-decoration: none;
-            color: #000;
-        }
+    .comantair {
+        
+        margin-right: 150px;
+    }
+    .comantair pre {
+        text-align: justify;
+    
+    }
+
+      
